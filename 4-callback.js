@@ -21,6 +21,8 @@
 //     console.log(data)
 // })
 
+
+
 //
 // Goal: Mess around with the callback pattern
 //
@@ -38,6 +40,8 @@ const add = (x, y, callback) => {
 add(1, 4, (sum) => {
     console.log(sum) // Should print: 5
 })
+
+//two arguments passed to callbacks is typical
 
 
 
